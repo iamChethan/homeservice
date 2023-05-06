@@ -189,7 +189,7 @@
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                src="https://images.unsplash.com/flagged/photo-1572262107271-baad9a8c8709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=547&q=80"
               />
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -246,6 +246,17 @@
                       </div>
                     </div>
                   </li>
+                  <li class="py-6 ">
+                    <div class="flex items-center ">
+                      
+                      <button
+                        class="bg-pink-200 text-blueGray-700 active:bg-blueGray-50 text-s font-bold px-4 py-4 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                        type="button"
+                      >
+                        <i class="fas fa-vote-yea"></i> Register as a Professional
+                      </button>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -255,12 +266,10 @@
       <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="w-full lg:w-8/12 px-4">
               <h2 class="text-4xl font-semibold">Here are our heroes</h2>
               <p class="text-lg leading-relaxed m-4 text-blueGray-500">
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
+               At Home Service Company, we understand that our success is deeply intertwined with the success of our partners. That's why we have always prioritized a structured approach towards partner development and well-being, centered around 4 key pillars: improved earnings, safety net, training, and wealth creation.
               </p>
             </div>
           </div>
@@ -273,11 +282,11 @@
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                  <h5 class="text-xl font-bold">Santhosh</h5>
                   <p
                     class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
                   >
-                    Web Developer
+                    MD & Co-Founder, Home Service Company
                   </p>
                   <div class="mt-6">
                     <button
@@ -304,15 +313,15 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="assets/img/team-2-800x800.jpg"
+                  src="assets/img/team-1-800x800.jpg"
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Romina Hadid</h5>
+                  <h5 class="text-xl font-bold">Charan</h5>
                   <p
                     class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
                   >
-                    Marketing Specialist
+                   Co-founder & Marketing Specialist
                   </p>
                   <div class="mt-6">
                     <button
@@ -334,15 +343,15 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="assets/img/team-3-800x800.jpg"
+                  src="assets/img/team-1-800x800.jpg"
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Alexa Smith</h5>
+                  <h5 class="text-xl font-bold">Madhu</h5>
                   <p
                     class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
                   >
-                    UI/UX Designer
+                    Senior Technical Head
                   </p>
                   <div class="mt-6">
                     <button
@@ -369,15 +378,15 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="assets/img/team-4-470x470.png"
+                  src="assets/img/team-1-800x800.jpg"
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                  <h5 class="text-xl font-bold">Jayaram</h5>
                   <p
                     class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
                   >
-                    Founder and CEO
+                    Technical Head
                   </p>
                   <div class="mt-6">
                     <button
@@ -430,12 +439,10 @@
         </div>
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
+            <div class="w-full lg:w-8/12 px-4">
+              <h2 class="text-4xl font-semibold text-white">How Home Service Company works</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
+                Our platform connects you with reliable and professional service providers in your area, so you can get the services you need, when you need them. No more waiting around for appointments or dealing with unreliable service providers. With us, you'll have access to home services on demand, making your life easier and more convenient than ever before.
               </p>
             </div>
           </div>
@@ -447,11 +454,10 @@
                 <i class="fas fa-medal text-xl"></i>
               </div>
               <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                When & where you want to work
               </h6>
               <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                With Our's user-friendly app, it's easier than ever to tell us when and where you want to work. We'll line up jobs for you and you never have to worry about scheduling.
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -461,11 +467,10 @@
                 <i class="fas fa-poll text-xl"></i>
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
+              We believe that outstanding service is the key to delighting our customers.
               </h5>
               <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                 That's why we go above and beyond to ensure that every customer receives exceptional service from start to finish.Magic your work in a 1:1 setting with your clients.
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -474,10 +479,9 @@
               >
                 <i class="fas fa-lightbulb text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+              <h5 class="text-xl mt-5 font-semibold text-white">Join our platform today and start earning a steady income</h5>
               <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                With the peace of mind that comes with our guaranteed minimum leads and weekly payouts. We ensure your peace of mind with automated weekly payouts.
               </p>
             </div>
           </div>
@@ -491,7 +495,7 @@
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200"
               >
                 <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                  <h4 class="text-2xl font-semibold">Book a professional now.?</h4>
                   <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
                     Complete this form and we will get back to you in 24 hours.
                   </p>
@@ -509,13 +513,23 @@
                   <div class="relative w-full mb-3">
                     <label
                       class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                      for="email"
+                      for="mobile"
                       >Email</label
                     ><input
-                      type="email"
+                      type="number"
                       class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Email"
+                      placeholder="Mobile Number"
                     />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label for="Services" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a service.</label>
+                    <select id="service" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      <option selected>Choose a service</option>
+                      <option value="WASHING-MACHINE">Washing Machine</option>
+                      <option value="REFRIGERATOR">Refrigerator</option>
+                      <option value="MICROWAVE">Microwave</option>
+                      <option value="OTHER">Other</option>
+                    </select>
                   </div>
                   <div class="relative w-full mb-3">
                     <label
@@ -534,7 +548,7 @@
                       class="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="button"
                     >
-                      Send Message
+                      Book Now
                     </button>
                   </div>
                 </div>

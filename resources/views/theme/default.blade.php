@@ -46,10 +46,16 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-center lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-            <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
-              Find us on any of these platforms, we respond 1-2 business days.
+            <h4 class="text-xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-sl mt-0 mb-2 text-blueGray-600">
+              Find us on any of these platforms, we respond within one business days.
             </h5>
+            <h6 class="text-xs mt-0 mb-2 text-blueGray-600">
+              #3, II nd Floor, 80 feet Main Road, Srinivasanagara, Banashankari Ist Stage Ist Block, Bengaluru - 560050
+            </h6>
+            <h6 class="text-xs mt-0 mb-2 text-blueGray-600">
+              <strong>Email:</strong> help@homeservice.com &nbsp; <strong>Contact Number:</strong> +91 888 425 5542
+            </h6>
             <div class="mt-6 lg:mb-0 mb-6">
               <button
                 class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -65,12 +71,12 @@
                 class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i class="fab fa-dribbble"></i></button
+                <i class="fab fa-instagram"></i></button
               ><button
-                class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white text-red-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i class="fab fa-github"></i>
+                <i class="fab fa-youtube"></i>
               </button>
             </div>
           </div>
@@ -82,70 +88,46 @@
                   >Useful Links</span
                 >
                 <ul class="list-unstyled">
+                 
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-landing"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-landing"
+                      href="#"
                       >Blog</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-landing"
-                      >Github</a
-                    >
+                      href="#"
+                      >Join as a Professional</a>
+                    
                   </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-landing"
-                      >Free Products</a
-                    >
-                  </li>
+                 
                 </ul>
               </div>
               <div class="w-full lg:w-4/12 px-4">
                 <span
                   class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
-                  >Other Resources</span
+                  >For You</span
                 >
                 <ul class="list-unstyled">
+                 
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-landing"
-                      >MIT License</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms?ref=njs-landing"
+                      href="#"
                       >Terms &amp; Conditions</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy?ref=njs-landing"
+                      href="#"
                       >Privacy Policy</a
                     >
                   </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us?ref=njs-landing"
-                      >Contact Us</a
-                    >
-                  </li>
+                  
                 </ul>
               </div>
             </div>
