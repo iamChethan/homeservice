@@ -499,6 +499,13 @@
                   <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
                     Complete this form and we will get back to you in 24 hours.
                   </p>
+                    @if(session('status'))
+                    <div id="Status" class="uppercase w-full mb-1 mt-1 text-green-300">
+                        {{ session('status') }}
+                    </div>
+                    @endif
+                <form action="{{ route('lead.store') }}" method="POST" enctype="multipart/form-data"> 
+                   @csrf   
                   <div class="relative w-full mb-3 mt-8">
                     <label
                       class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -506,30 +513,41 @@
                       >Full Name</label
                     ><input
                       type="text"
+                      name="name"
                       class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Full Name"
                     />
+                     @error('name')
+                        <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                     @enderror
                   </div>
                   <div class="relative w-full mb-3">
                     <label
                       class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       for="mobile"
-                      >Email</label
+                      >Mobile</label
                     ><input
                       type="number"
+                      name="mobile"
                       class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Mobile Number"
                     />
+                    @error('mobile')
+                        <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                     @enderror
                   </div>
                   <div class="relative w-full mb-3">
                     <label for="Services" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a service.</label>
-                    <select id="service" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <select id="service" name="service" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                       <option selected>Choose a service</option>
                       <option value="WASHING-MACHINE">Washing Machine</option>
                       <option value="REFRIGERATOR">Refrigerator</option>
                       <option value="MICROWAVE">Microwave</option>
                       <option value="OTHER">Other</option>
                     </select>
+                    @error('service')
+                        <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                     @enderror
                   </div>
                   <div class="relative w-full mb-3">
                     <label
@@ -538,15 +556,19 @@
                       >Message</label
                     ><textarea
                       rows="4"
+                      name="message"
                       cols="80"
                       class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Type a message..."
                     ></textarea>
+                    @error('message')
+                        <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                    @enderror
                   </div>
                   <div class="text-center mt-6">
                     <button
                       class="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                      type="button"
+                      type="submit"
                     >
                       Book Now
                     </button>
