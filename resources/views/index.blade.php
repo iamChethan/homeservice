@@ -1,14 +1,14 @@
 @extends('theme.default')
 @section('content')
 <div
-        class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
+        class="  relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="
             background-image: url('assets/img/appliance-repair.jpg');
           "
-        >
+         >
           <span
             id="blackOverlay"
             class="w-full h-full absolute opacity-75 bg-black"
@@ -504,7 +504,7 @@
                         {{ session('status') }}
                     </div>
                     @endif
-                <form action="{{ route('lead.store') }}" method="POST" enctype="multipart/form-data"> 
+                <form action="{{ route('leads.store') }}" method="POST" enctype="multipart/form-data"> 
                    @csrf   
                   <div class="relative w-full mb-3 mt-8">
                     <label

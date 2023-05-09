@@ -19,6 +19,6 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('leads/view', function () {
-    return view('leads/index');
+    return view('leads/');
 });
-Route::resource('lead', LeadController::class);
+Route::resource('leads', LeadController::class);

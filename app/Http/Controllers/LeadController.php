@@ -7,16 +7,16 @@ use Illuminate\Http\Request;
 class LeadController extends Controller
 {
     
-    public function leadindex()
+    public function index()
     {
         $leads = Lead::orderBy('id','desc')->paginate(5);
         return view('leads.index', compact('leads'));
     }
 
-    public function index()
-    {
-        return view('index');
-    }
+    // public function index()
+    // {
+    //     return view('index');
+    // }
 
     public function store(Request $request)
     {

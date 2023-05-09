@@ -43,8 +43,8 @@
                         <td>{{ $lead->service }}</td>
                         <td>{{ $lead->message }}</td>
                         <td>
-                            <form action="{{ route('lead.destroy',$lead->id) }}" method="Post">
-                                <a class="btn btn-primary" href="{{ route('lead.edit',$lead->id) }}">Edit</a>
+                            <form action="{{ route('leads.destroy',$lead->id) }}" method="Post">
+                                <a class="btn btn-primary" href="{{ route('leads.edit',$lead->id) }}">Edit</a>
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn btn-danger">Delete</button>
@@ -54,7 +54,7 @@
                     @endforeach
             </tbody>
         </table>
-        {!! $lead->links() !!}
+        {!! $leads->links() !!}
     </div>
 </body>
 </html>
