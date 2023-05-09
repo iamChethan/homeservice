@@ -86,6 +86,14 @@ module.exports = {
     "visited",
     "disabled",
   ],
+  content: [
+    "./resources/**/*.blade.php", 
+    "./resources/**/**/**/**/*.blade.php",
+    "./resources/**/**/*.blade.php",
+    "./resources/**/**/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
+],
   plugins: [
     require("@tailwindcss/forms"),
     plugin(function ({ addComponents, theme }) {
