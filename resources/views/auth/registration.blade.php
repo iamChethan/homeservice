@@ -1,20 +1,20 @@
 @extends('theme.auth')
   
 @section('content')
-<section class="h-screen">
-  <div class="h-full">
-      <div class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
-          <div class="col-md-8">
+<section class="w-full  h-screen">
+  <div class="w-full h-full justify-center lg:justify-between">
+      <div class="flex h-full items-center justify-center lg:justify-between">
+          <div class="">
               <div class="card">
-                  <div class="text-2xl relative mb-6">Register New User</div>
-                  <div class="card-body">
+                  <div class="text-2xl relative mb-6 w-full">Register New User</div>
+                     <div class="card-body ">
   
                       <form action="{{ route('register.post') }}" method="POST">
                           @csrf
-                          <div class="relative mb-6">
+                          <div class="relative mb-6 w-8/12">
                               
-                              <div class="col-md-6">
-                                  <input type="text" id="name"  class="peer block min-h-[auto] w-full rounded border-1 bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" name="name" placeholder="Name" required autofocus>
+                              <div class="col-md-6 ">
+                                  <input type="text" id="name"  class="w-full peer block min-h-[auto] rounded border-1 bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" name="name" placeholder="Name" required autofocus>
                                   @if ($errors->has('name'))
                                       <span class="text-danger">{{ $errors->first('name') }}</span>
                                   @endif

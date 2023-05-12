@@ -45,11 +45,11 @@ class AuthController extends Controller
    
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('leads.index')
+            return redirect()->intended('leads')
                         ->withSuccess('You have Successfully loggedin');
         }
   
-        return redirect("auth.login")->withSuccess('Oppes! You have entered invalid credentials');
+        return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
     }
       
     /**
@@ -68,7 +68,7 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
          
-        return redirect("leads.index")->withSuccess('Great! You have Successfully loggedin');
+        return redirect("login")->withSuccess('Great! You have Successfully loggedin');
     }
     
     /**
@@ -79,10 +79,10 @@ class AuthController extends Controller
     public function leads()
     {
         if(Auth::check()){
-            return view('leads.index');
+            return view('leads');
         }
   
-        return redirect("auth.login")->withSuccess('Opps! You do not have access');
+        return redirect("login")->withSuccess('Opps! You do not have access');
     }
     
     /**
@@ -108,6 +108,6 @@ class AuthController extends Controller
         Session::flush();
         Auth::logout();
   
-        return Redirect('auth.login');
+        return Redirect('login');
     }
 }

@@ -1,3 +1,7 @@
+    <link
+      rel="stylesheet"
+      href="{{ URL::asset('vendor/@fortawesome/fontawesome-free/css/all.min.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
      >

@@ -19,8 +19,11 @@ use App\Http\Controllers\LeadController;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('home', function () {
+    return view('index');
+});
 Route::get('leads/view', function () {
-    return view('leads/');
+    return view('leads/')->middleware('auth');
 });
 Route::resource('leads', LeadController::class);
 
